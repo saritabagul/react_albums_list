@@ -1,0 +1,168 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #F2F2F2;
+  }
+  a{
+    color: unset;
+    text-decoration: none;
+  }
+  input{
+    outline: none;
+    font-size: 18px;
+    width: 100%;
+  }
+  button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+  /* Navbar component style */
+  .navbar{
+    width: 100%;
+    padding: 20px 10px;
+    background-color: #44a6a6;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+  }
+  .navbar h2{
+    background-color: #ffffff;
+    width: fit-content;
+    padding: 4px;
+    border-radius: 5px;
+  }
+  .brand-first-half{
+    margin-right: 2px;
+  }
+  .brand-last-half{
+    background-color: #44a6a6;
+    color: #ffffff;
+  
+  }
+  .navbar button{
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  .navbar button:hover{
+    background-color: #ffffff;
+    color: #44a6a6;
+  }
+  
+  /* AlbumsList component style */
+  .albums-list{
+    width: 70%;
+    margin: auto;
+    padding-top: 73px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  /* List component style */
+  /* CSS for the list items */
+  .list-item {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    box-shadow: 6px 6px 0px 0px #44a6a6;
+  }
+  
+  /* CSS for the title */
+  .title {
+    font-size: 18px;
+    flex-grow: 1; /* Allow the title to expand and take up available space */
+    text-transform: capitalize;
+  }
+  
+  /* CSS for the button container */
+  .button-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* CSS for the buttons */
+  .button {
+    padding: 5px 10px;
+    background-color: #44a6a6;
+    color: #fff;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  /* Style for the delete button */
+  .delete-button {
+    background-color: #FF0000;
+    border:1px solid #ffffff;  
+  }
+  
+  .button:hover{
+    background-color: #ffffff;
+    color:#44a6a6;
+    border:1px solid #44a6a6; 
+  }
+  
+  .delete-button:hover{
+    background-color: #ffffff;
+    color:#FF0000;
+    border:1px solid #FF0000; 
+  }
+  
+  /* UpdateAlbum component style */
+  .update-album{
+    width: 350px;
+    margin: auto;
+    padding-top: 73px;
+    color: #000000;
+  }
+  .form-container{
+    background-color: #ffffff;
+    padding: 10px;
+    margin-top: 50px;
+  }
+  .inp-container{
+    margin: 10px;
+  }
+  .form-container button{
+    background-color: #44a6a6;
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  /* addAlbum container style */
+  .addalbum-container{
+    color: #000000;
+    padding-top: 73px;
+    width: 350px;
+    margin: auto;
+  }
+  .addalbum-form{
+    padding: 10px;
+    background-color: #ffffff;
+    margin-top: 50px;
+  }
+  .addalbum-form button{
+    background-color: #44a6a6;
+    padding: 10px 20px;
+    color: white;
+  }
+
+  h3{
+    text-align: center;
+  }
