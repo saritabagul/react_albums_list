@@ -1,4 +1,5 @@
 # Albums List
+The application is developed using ReactJS and works by fetching the album list from an API
 
 # Getting Started with Create React App
 
